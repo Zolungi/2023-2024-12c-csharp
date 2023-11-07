@@ -15,6 +15,8 @@ namespace Kor
                                                                            
         // Konstruktor
         public KorClass(double r) { this.sugar = r; }
+        public KorClass() {}
+        public void getSugar(double r) { this.sugar = r; }
 
         public void setKerulet()
         {
